@@ -36,7 +36,7 @@ export default function Navbar() {
                 </ul>
                 </nav>
                 <i className="hidden lg:flex lg:items-center lg:w-auto w-full ">
-                    <a href="https://bartick.netlify.app/" rel="noreferrer" target="_blank">
+                    <a href="https://github.com/bartick/myPortfolio" rel="noreferrer" target="_blank">
                         <img style={{width: '3rem', height: '3rem', borderRadius: '50%', marginTop: '10%', marginRight: '10%'}} src={logo} alt="Andy Leverenz"/>
                     </a>
                 </i>
