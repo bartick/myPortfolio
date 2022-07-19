@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm student who is passionate about technology. I having an experience of web applications with Python, Flask, React.js, Next.js, Vue Js, Node Js and Blockchain development on Ethereum, Solidity, Ethers and Moralis.",
 	resumeLink:
-		"https://drive.google.com/file/d/1xwJDz9ox6bKBIdVWOZOMFwqlKTfZ9-AZ/view?usp=sharing",
+		"https://drive.google.com/file/d/1_SR4BM2ldzRjch-KOCDYfH23x4Q2cb0A/view?usp=sharing",
 };
 
 export const openSource = {
