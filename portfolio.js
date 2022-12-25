@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm student who is passionate about technology. I having an experience of web applications with Python, Flask, React.js, Next.js, Vue Js, Node Js and Blockchain development on Ethereum, Solidity, Ethers and Moralis.",
 	resumeLink:
-		"https://drive.google.com/file/d/1_SR4BM2ldzRjch-KOCDYfH23x4Q2cb0A/view?usp=sharing",
+		"https://drive.google.com/file/d/1U2ysHXCe92aAt8WKRnha08Edsm9UlBs4/view?usp=sharing",
 };
 
 export const openSource = {
@@ -194,7 +194,7 @@ export const skillsSection = {
 export const SkillBars = [
 	{
 		Stack: "Backend",
-		progressPercentage: "90",
+		progressPercentage: "95",
 	},
 	{
 		Stack: "Frontend/Design",
@@ -202,15 +202,15 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Flutter",
-		progressPercentage: "70",
+		progressPercentage: "50",
 	},
 	{
 		Stack: "Blockchain",
-		progressPercentage: "60",
+		progressPercentage: "80",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "76",
+		progressPercentage: "90",
 	},
 ];
 
@@ -229,37 +229,39 @@ export const educationInfo = [
 
 export const experience = [
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
-		// descBullets: [
-		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		// ],
+		role: "Backend Developer Intern",
+		company: "Ringover",
+		companylogo: "/img/icons/common/ringover.jpeg",
+		date: "June 2022 – Sept 2022",
+		desc: "Collaborated with all the backend developers in the team to to develop a CRM tool that understands business needs and provide great management suggestions with the least amount of effort.",
+		descBullets: [
+			"Worked on integrating salesforce api into the software.",
+			"Made modules of APIs from Pipedrive, BullHorn and Selsy for future integration.",
+		],
 	},
-	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
-	},
-	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
-	},
+	// {
+	// 	role: "Full Stack Developer",
+	// 	company: "Bleed-AI",
+	// 	companylogo: "/img/icons/common/bleedAI.jpg",
+	// 	date: "Sept 2021 - Oct 2021",
+	// 	desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+	// },
+	// {
+	// 	role: "Backend Developer",
+	// 	company: "Wapidu",
+	// 	companylogo: "/img/icons/common/wapidu.jpg",
+	// 	date: "Sept 2021",
+	// 	desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+	// },
 ];
 
+
+// Find icons from https://icon-sets.iconify.design/
 export const projects = [
 	{
 		name: "DeCert",
-		desc: "We are proving a simple fast API to ed-tech businesses to make their certificates into NFTs and send to the receiver. We are making the NFTs non-transferable so maintain the legitimacy of the certificates.",
-		link: "https://github.com/Hackspiration-Team/DeCert",
+		desc: "Connecting Education & The Metaverse deCert is a Decentralized certification service that issues blockchain-based certificates on the Metaverse and Ethereum ecosystems.",
+		link: "https://github.com/bartick/DeCert",
 		techUsed: [
 			{
 				skillName: "Solidity",
@@ -296,28 +298,28 @@ export const projects = [
 				skillName: "Sqlite",
 				fontAwesomeClassname: "logos:sqlite",
 			},
+			{
+				skillName: "Discordjs",
+				fontAwesomeClassname: "logos:discord-icon",
+			}
 		],
 	},
 	{
-		name: "MedKept",
-		desc: "A decentralized service where the patient’s report can only be viewed by only the Doctor and the Patient. There are Managers who can issue a report to the Patients.",
-		link: "https://github.com/aztecs-team/MedKept",
+		name: "Custom Interactions",
+		desc: "A simple interactions library to help you create custom interactions for your github issues and pull requests.",
+		link: "https://github.com/bartick/custom-interactions",
 		techUsed: [
 			{
-				skillName: "Solidity",
-				fontAwesomeClassname: "logos:solidity",
+				skillName: "Typescript",
+				fontAwesomeClassname: "logos:typescript-icon",
 			},
 			{
 				skillName: "NodeJs",
 				fontAwesomeClassname: "logos:nodejs-icon",
 			},
 			{
-				skillName: "Reactjs",
-				fontAwesomeClassname: "logos:react",
-			},
-			{
-				skillName: "Hardhat",
-				fontAwesomeClassname: "logos:hardhat-icon",
+				skillName: "Github Actions",
+				fontAwesomeClassname: "logos:github-octocat",
 			}
 		],
 	}
