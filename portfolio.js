@@ -1,12 +1,10 @@
-import emoji from "react-easy-emoji";
-
 export const greetings = {
 	name: "Bartick Maiti",
 	title: "Hello, I'm Bartick",
 	description:
-		"I'm student who is passionate about technology. I having an experience of web applications with Python, Flask, React.js, Next.js, Vue Js, Node Js and Blockchain development on Ethereum, Solidity, Ethers and Moralis.",
+		"I am a passionate technology student specializing in backend development. I have hands-on experience with Node.js, TypeScript, JavaScript, Python, and Golang, as well as related technologies. In addition to these languages, I am also learning to work with Java, Rust, and Ruby, constantly seeking opportunities to contribute to the community. I possess knowledge of Solidity for Blockchain development and have worked with frameworks like Next.js for FullStack projects.",
 	resumeLink:
-		"https://drive.google.com/file/d/1U2ysHXCe92aAt8WKRnha08Edsm9UlBs4/view?usp=sharing",
+		"https://drive.google.com/file/d/1qFLJGgIcBAKOb2RJnvOf9i9Y5UsuhSrz/view?usp=sharing",
 };
 
 export const openSource = {
@@ -25,19 +23,63 @@ export const socialLinks = {
 export const skillsSection = {
 	title: "What I do",
 	subTitle:
-		"CRAZY STUDENT WHO WANTS TO EXPLORE EVERY TECH STACK AND DREAM TO BE THE BEST DEVELOPER",
+		"I am an ambitious student with a strong desire to explore various tech stacks and aspire to become a top-notch developer.",
 	data: [
+		{
+			title: "Backend Development",
+			lottieAnimationFile: "/lottie/skills/backend.json", // Path of Lottie Animation JSON File
+			skills: [
+				"⚡ Building resposive website backend in Node.js, Express.js, Python, Golang",
+				"⚡ Creating application backend in Node.js, Express.js, Python, Golang",
+				"⚡ Creating RESTful APIs",
+				"⚡ Creating databases in MongoDB, MySQL, PostgreSQL",
+				"⚡ Creating microservices and serverless functions",
+
+			],
+			softwareSkills: [
+				{
+					skillName: "Nodejs",
+					fontAwesomeClassname: "logos:nodejs-icon",
+				},
+				{
+					skillName: "Expressjs",
+					fontAwesomeClassname: "logos:express",
+				},
+				{
+					skillName: "Python",
+					fontAwesomeClassname: "logos:python",
+				},
+				{
+					skillName: "Golang",
+					fontAwesomeClassname: "fa6-brands:golang",
+				},
+				{
+					skillName: "MongoDB",
+					fontAwesomeClassname: "vscode-icons:file-type-mongo",
+				},
+				{
+					skillName: "MySQL",
+					fontAwesomeClassname: "logos:mysql",
+				},
+				{
+					skillName: "PostgreSQL",
+					fontAwesomeClassname: "logos:postgresql",
+				},
+				{
+					skillName: "Docker",
+					fontAwesomeClassname: "logos:docker-icon",
+				},
+			]
+		},
 		{
 			title: "Full Stack Development",
 			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
-				),
-				emoji("⚡ Building responsive static websites using React.js"),
-				emoji(
-					"⚡ Building RESTful APIs in Express.js, Node.js, MongoDB, MySQL, PostgreSQL"
-				),
+				"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js",
+				"⚡ Building responsive static websites using React.js",
+				"⚡ Creating application backend in Node.js, Express.js, Python, Golang",
+				"⚡ Creating RESTful APIs",
+				"⚡ Creating databases in MongoDB, MySQL, PostgreSQL",
 			],
 			softwareSkills: [
 				{
@@ -87,16 +129,10 @@ export const skillsSection = {
 			title: "Cloud Infra-Architecture",
 			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji("⚡ Experience of working on multiple cloud platforms"),
-				emoji(
-					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-				),
-				emoji(
-					"⚡ Setting up load balancers and firewalls to provide high availability"
-				),
-				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-				),
+				"⚡ Experience of working on multiple cloud platforms",
+				"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
+				"⚡ Setting up load balancers and firewalls to provide high availability",
+				"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions",
 			],
 			softwareSkills: [
 				{
@@ -145,21 +181,11 @@ export const skillsSection = {
 			title: "Blockchain",
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
-				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
-				emoji(
-					"⚡ Building APIs with Node.js & Solidity using IPFS and Ethers"
-				)
+				"⚡ Experience in developing Smart Contract using Solidity & Ethereum",
+				"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura",
+				"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard",
+				"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS",
+				"⚡ Building APIs with Node.js & Solidity using IPFS and Ethers"
 			],
 			softwareSkills: [
 				{
@@ -237,6 +263,7 @@ export const experience = [
 		descBullets: [
 			"Worked on integrating salesforce api into the software.",
 			"Made modules of APIs from Pipedrive, BullHorn and Selsy for future integration.",
+			"Worked on fixing bugs and improving the performance of the software.",
 		],
 	},
 	// {
@@ -322,6 +349,17 @@ export const projects = [
 				fontAwesomeClassname: "logos:github-octocat",
 			}
 		],
+	},
+	{
+		name: "AniLang",
+		desc: "This is just another programming language that helps weebs to learn the basics of programming while having fun with the anime references.",
+		link: "https://github.com/anilang-official/AniLang",
+		techUsed: [
+			{
+				skillName: "Golang",
+				fontAwesomeClassname: "fa6-brands:golang",
+			}
+		]
 	}
 ];
 
