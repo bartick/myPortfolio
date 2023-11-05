@@ -4,7 +4,7 @@ export const greetings = {
 	description:
 		"I am a passionate technology student specializing in backend development. I have hands-on experience with Node.js, TypeScript, JavaScript, Python, and Golang, as well as related technologies. In addition to these languages, I am also learning to work with Java, Rust, and Ruby, constantly seeking opportunities to contribute to the community. I possess knowledge of Solidity for Blockchain development and have worked with frameworks like Next.js for FullStack projects.",
 	resumeLink:
-		"https://drive.google.com/file/d/1qFLJGgIcBAKOb2RJnvOf9i9Y5UsuhSrz/view?usp=sharing",
+		"https://drive.google.com/file/d/1DCBhxr90NrS8m_ZgEiPCFaQJ2gZYjHAK/view?usp=sharing",
 };
 
 export const openSource = {
