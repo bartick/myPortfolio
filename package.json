@@ -8,7 +8,8 @@
 	"license": "MIT",
 	"scripts": {
 		"fix": "export NODE_OPTIONS=--openssl-legacy-provider",
-		"dev": "next dev",
+		"dev::old": "next dev",
+		"dev::new": "NODE_OPTIONS=--openssl-legacy-provider next dev",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint"
