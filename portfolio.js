@@ -18,6 +18,7 @@ export const socialLinks = {
 	instagram: "https://www.instagram.com/bartick._/",
 	github: "https://github.com/bartick/",
 	linkedin: "https://www.linkedin.com/in/bartick-maiti/",
+	blog: "https://blog.bartick.me/",
 };
 
 export const skillsSection = {

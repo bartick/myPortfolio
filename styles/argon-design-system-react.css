@@ -16111,6 +16111,41 @@ a.btn-icon-only {
 	box-shadow: none, 0 0 0 0 rgba(189, 8, 28, 0.5);
 }
 
+.btn-rss {
+	color: #fff;
+	background-color: #36454F;
+	border-color: #36454F;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.btn-rss:hover {
+	color: #fff;
+	background-color: #36454F;
+	border-color: #36454F;
+}
+.btn-rss:focus,
+.btn-rss.focus {
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08),
+		0 0 0 0 rgba(189, 8, 28, 0.5);
+}
+.btn-rss.disabled,
+.btn-rss:disabled {
+	color: #fff;
+	background-color: #36454F;
+	border-color: #36454F;
+}
+.btn-rss:not(:disabled):not(.disabled):active,
+.btn-rss:not(:disabled):not(.disabled).active,
+.show > .btn-rss.dropdown-toggle {
+	color: #fff;
+	background-color: #41424C;
+	border-color: #555D50;
+}
+.btn-rss:not(:disabled):not(.disabled):active:focus,
+.btn-rss:not(:disabled):not(.disabled).active:focus,
+.show > .btn-rss.dropdown-toggle:focus {
+	box-shadow: none, 0 0 0 0 rgba(54, 69, 79, 0.5);
+}
+
 .btn-youtube {
 	color: #fff;
 	background-color: #cd201f;

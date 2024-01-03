@@ -145,6 +145,22 @@ const Navigation = () => {
 										</NavLink>
 									</NavItem>
 								)}
+								{socialLinks.blog && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Blog"
+											className="nav-link-icon"
+											href={socialLinks.blog}
+											target="_blank"
+										>
+											<i className="fa fa-rss-square" />
+											<span className="nav-link-inner--text d-lg-none ml-2">
+												Blog
+											</span>
+										</NavLink>
+									</NavItem>
+								)}
 							</Nav>
 						</UncontrolledCollapse>
 					</Container>

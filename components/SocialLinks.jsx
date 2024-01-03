@@ -63,6 +63,20 @@ const SocialLinks = () => {
 					</span>
 				</Button>
 			)}
+			{socialLinks.blog && (
+				<Button
+				className="btn-icon-only rounded-circle ml-1"
+					color="rss"
+					rel="noopener"
+					aria-label="Blog"
+					href={socialLinks.blog}
+					target="_blank"
+				>
+					<span className="btn-inner--icon">
+						<i className="fa fa-rss-square" />
+					</span>
+				</Button>
+			)}
 		</div>
 	);
 };
