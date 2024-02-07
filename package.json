@@ -10,7 +10,8 @@
 		"fix": "export NODE_OPTIONS=--openssl-legacy-provider",
 		"dev::old": "next dev",
 		"dev::new": "NODE_OPTIONS=--openssl-legacy-provider next dev",
-		"build": "next build",
+		"build::old": "next build",
+		"build::new": "NODE_OPTIONS=--openssl-legacy-provider next build",
 		"start": "next start",
 		"lint": "next lint"
 	},
